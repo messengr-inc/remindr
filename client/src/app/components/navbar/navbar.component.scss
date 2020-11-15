@@ -1,0 +1,16 @@
+.navbar {
+  height: 100%;
+  background-color: #77c1f6;
+  padding-top: env(safe-area-inset-top);
+  display: flex;
+  align-items: center;
+
+  &__title {
+    font-size: 4rem;
+    margin-left: 2rem;
+  }
+}
+
+.dark {
+  background-color: #167ec8;
+}

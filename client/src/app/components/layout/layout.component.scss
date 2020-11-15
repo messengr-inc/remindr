@@ -1,0 +1,23 @@
+$light-mode-text: #2c2c2c;
+$dark-mode-text: #eee;
+
+$light-mode-background: #eee;
+$dark-mode-background: #2c2c2c;
+
+.layout {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 12.5rem 1fr;
+  grid-template-columns: 1fr;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.light {
+  color: $light-mode-text;
+  background-color: $light-mode-background;
+}
+
+.dark {
+  color: $dark-mode-text;
+  background-color: $dark-mode-background;
+}

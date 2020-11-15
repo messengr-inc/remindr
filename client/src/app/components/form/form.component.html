@@ -1,0 +1,38 @@
+<form class="form" [formGroup]="notificationForm" (ngSubmit)="onSubmit()">
+  <div class="row row1">
+    <app-label>Dark Mode</app-label>
+    <app-slider [mode]="mode" [onClickFunction]="toggleDarkMode.bind(this)"
+      >Toggle</app-slider
+    >
+  </div>
+  <div class="row row2">
+    <app-label>Title</app-label>
+    <app-input
+      [form]="notificationForm"
+      controlName="title"
+      class="input"
+    ></app-input>
+  </div>
+  <div class="row row3">
+    <app-label>Content</app-label>
+    <app-input
+      [form]="notificationForm"
+      controlName="content"
+      class="input"
+    ></app-input>
+  </div>
+  <div class="row row4">
+    <app-label>Time Interval (in seconds)</app-label>
+    <app-input
+      [form]="notificationForm"
+      controlName="time-interval"
+      class="input"
+      type="number"
+    ></app-input>
+  </div>
+  <div class="row row5">
+    <app-cta class="row__cta" [onSubmit]="onSubmit.bind(this)" [mode]="mode"
+      >Submit</app-cta
+    >
+  </div>
+</form>

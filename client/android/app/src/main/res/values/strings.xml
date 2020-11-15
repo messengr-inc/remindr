@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Remindr</string>
+    <string name="title_activity_main">Remindr</string>
+    <string name="package_name">com.remindr.app</string>
+    <string name="custom_url_scheme">com.remindr.app</string>
+</resources>
