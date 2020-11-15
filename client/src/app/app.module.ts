@@ -14,6 +14,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { FormControlComponent } from './components/form/form-control/form-control.component';
 import { InputComponent } from './components/form/input/input.component';
 import { CtaComponent } from './components/form/cta/cta.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { CtaComponent } from './components/form/cta/cta.component';
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
+    HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
     }),

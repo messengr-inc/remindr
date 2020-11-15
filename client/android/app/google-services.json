@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "944848748832",
+    "firebase_url": "https://remindr-9e2ab.firebaseio.com",
+    "project_id": "remindr-9e2ab",
+    "storage_bucket": "remindr-9e2ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944848748832:android:4dd943d1e2873eca389745",
+        "android_client_info": {
+          "package_name": "com.remindr.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944848748832-n49v9sdjal1qv7c4sldf1us0muotuk7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMxOxGCdtN4rN6laxTVZezNWsX9u5Tz5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944848748832-n49v9sdjal1qv7c4sldf1us0muotuk7k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "944848748832-eptq0jkpsl2hnuceppr95r70m6d4bkir.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.remindr.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
