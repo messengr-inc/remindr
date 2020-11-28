@@ -1,9 +1,6 @@
 <form class="form" [formGroup]="notificationForm" (ngSubmit)="onSubmit()">
   <div class="row row1">
-    <app-label>Dark Mode</app-label>
-    <app-slider [mode]="mode" [onClickFunction]="toggleDarkMode.bind(this)"
-      >Toggle</app-slider
-    >
+    <app-label>Please allow Notifications before continuing</app-label>
   </div>
   <div class="row row2">
     <app-label>Title</app-label>

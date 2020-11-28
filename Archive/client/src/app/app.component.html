@@ -1,8 +1,6 @@
 <div class="wrapper dark">
   <app-layout [mode]="mode">
-    <app-navbar [mode]="mode"
-      title="Remindr - {{ data.device.operatingSystem ? data.device.operatingSystem : platform }} {{ isNative ? ' - native' : '' }} {{ platform === 'web' && data.device.operatingSystem ? ' - web' : '' }}">
-    </app-navbar>
+    <app-navbar [mode]="mode" title="Remindr"> </app-navbar>
     <app-form [mode]="mode"></app-form>
   </app-layout>
 </div>
