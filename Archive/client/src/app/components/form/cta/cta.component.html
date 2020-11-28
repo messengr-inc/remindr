@@ -1,0 +1,9 @@
+<div class="container">
+  <button
+    (click)="onSubmit"
+    class="button"
+    [ngClass]="{ dark: mode == 'dark' }"
+  >
+    <ng-content></ng-content>
+  </button>
+</div>

@@ -1,0 +1,9 @@
+<div style="display: flex; justify-content: center; align-items: center">
+  <button
+    class="button"
+    [ngClass]="{ 'dark-mode': mode == 'dark' }"
+    (click)="onClickFunction()"
+  >
+    <ng-content></ng-content>
+  </button>
+</div>
